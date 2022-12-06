@@ -28,7 +28,7 @@ const Formulario = (props) => {
     return (
         <section className="formulario">
             <form onSubmit={aoSalvar}>
-                <h2>Preencha os dados para cadastrar o colaborador</h2>
+                <h2>Preencha os dados para cadastrar o colaborador:</h2>
                 <CampoTexto 
                     obrigatorio={true}
                     label="Nome"
@@ -57,7 +57,7 @@ const Formulario = (props) => {
                     aoAlterado={valor => setTime(valor)}
                 />
                 <Botao>
-                    Criar Card
+                    Criar card
                 </Botao>
             </form>
         </section>
