@@ -3,6 +3,8 @@ import Botao from '../Botao'
 import CampoTexto from '../CampoTexto'
 import ListaSuspensa from '../ListaSuspensa'
 import './Formulario.css'
+import Swal from 'sweetalert2'
+import 'animate.css'
 
 const Formulario = (props) => {
 
@@ -23,6 +25,15 @@ const Formulario = (props) => {
         setCargo('')
         setImagem('')
         setTime('')
+        Swal.fire({
+            title: 'Cadastro realizado com sucesso',
+            showClass: {
+              popup: 'animate__animated animate__fadeInDown'
+            },
+            hideClass: {
+              popup: 'animate__animated animate__fadeOutUp'
+            }
+          })
     }
 
     return (
