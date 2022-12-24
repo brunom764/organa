@@ -25,7 +25,6 @@ const Formulario = (props) => {
         setCargo('')
         setImagem('')
         setTime('')
-        window.scrollTo(0,0)
         Swal.fire({
             title: 'Cadastro realizado com sucesso',
             showClass: {
@@ -35,6 +34,7 @@ const Formulario = (props) => {
               popup: 'animate__animated animate__fadeOutUp'
             }
           })
+        window.scrollTo(0,0)
     }
 
     return (
