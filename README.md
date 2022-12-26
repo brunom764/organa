@@ -15,3 +15,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
  - Animate css
  - Sweetalert 2
 
+### 🏁 Features
+
+- [x] Cadastro de funcionário
+- [x] Criação de card do funcionário
+- [x] Adição do card no topo da página
