@@ -20,3 +20,25 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] Cadastro de funcionário
 - [x] Criação de card do funcionário
 - [x] Adição do card no topo da página
+
+
+#### 🧭 Rodando a aplicação web
+
+```bash
+
+# Clone este repositório
+$ git clone https://github.com/brunom764/organo.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd README-organo
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
+
+
+```
+
+---
